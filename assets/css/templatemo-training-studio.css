@@ -688,6 +688,11 @@ features
   display: inline;
 }
 
+.feature-item .right-content p{
+  width: calc(100% - 105px);
+  margin-left: auto;
+}
+
 .feature-item .right-content h4 {
   margin-top: 0px;
   margin-bottom:  7px;
