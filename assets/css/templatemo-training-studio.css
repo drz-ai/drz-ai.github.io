@@ -147,8 +147,12 @@ body {
 
 .section-heading {
   text-align: center;
-  margin-top: 140px;
-  margin-bottom: 80px;
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+
+.demo-heading {
+  margin-top: 0px;
 }
 
 .section-heading h2 {
@@ -338,9 +342,19 @@ header
   opacity: 1;
 }
 
+.header-area .main-nav .nav .contact-btn:hover a {
+  color: #fff!important;
+  opacity: 1;
+}
+
 .background-header .main-nav .nav li:hover a,
 .background-header .main-nav .nav li a.active {
   color: #ed563b!important;
+  opacity: 1;
+}
+
+.background-header .main-nav .nav .contact-btn a.active {
+  color: #fff!important;
   opacity: 1;
 }
 
@@ -670,7 +684,7 @@ features
 */
 
 #features {
-  margin-bottom: 80px;
+  margin-bottom: 40px;
 }
 
 .feature-item {
@@ -737,9 +751,9 @@ subscribe
   position: absolute;
   top: 0;
   left: 0;
+  border: 25px solid #ed563b;
   width: 100%;
   height: 100%;
-  border: 0;
 }
 
 
@@ -1036,16 +1050,27 @@ contact
 
 #contact-us .contact-form {
   padding: 80px;
-  background-image: url(../images/contact-bg.jpg);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  height: 600px;
+  background-color: #ed563b;
 }
 
 #contact-us .contact-form #contact {
   background-color: #fff;
   padding: 40px;
+  height: 230px;
+  position: relative;
+  box-shadow: 0px 0px 15px rgb(0 0 0 / 30%);
+  top: calc(50% - 115px);
   border-radius: 5px;
+}
+
+#contact-us .contact-form #contact .addr {
+  margin-bottom: 10px;
+}
+
+#contact-us .contact-form #contact i {
+  margin-right: 10px;
+  color: #232d39;
 }
 
 .contact-form input,
